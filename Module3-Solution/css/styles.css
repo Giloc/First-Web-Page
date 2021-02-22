@@ -1,0 +1,65 @@
+body {
+    font-size: 16px;
+    background-color: rgb(228, 240, 205);
+}
+
+#header-nav {
+    background-color: blueviolet;
+    border-radius: 0;
+    border: 0;
+}
+
+#brand-name {
+    padding-left: 2%;
+}
+
+.navbar-brand h1 {
+    color: black;
+}
+
+.navbar-toggler-right {
+    float: right;   
+}
+
+#navbarSupportedContent {
+    background-color: rgb(197, 163, 224);
+    margin-left: -12px;
+    margin-right: -12px;
+    margin-bottom: -8px;   
+}
+
+.nav-item {
+    text-align: center;
+    font-size: 24px;
+    /*border-bottom: 2px solid black/*/
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li h3 {
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+
+li hr {
+    margin-bottom: 0px;
+}
+
+#content-section {
+    background-color: rgb(230, 220, 138);
+    height: 1300px;
+    margin: 10px;
+}
+
+#content-title {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+#page-menu {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
