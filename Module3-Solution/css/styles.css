@@ -61,3 +61,20 @@ li hr {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.text-content {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 10px;
+    height: 70%;
+}
+
+#content-section section {
+    height: 700px;
+    background-color: coral;
+}
+
+#content-section a:hover {
+    color: currentColor;
+    background-color: rgb(247, 104, 53)
+}
