@@ -80,6 +80,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 // *** start ***
 // On first load, show home view
+console.log("Ahhh?")
 showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
   allCategoriesUrl,
@@ -123,7 +124,7 @@ function buildAndShowHomeHTML (categories) {
       // of how to do that.
       // ...
       insertHtml("#main-content", homeHtmlToInsertIntoMainPage)
-      console.log("Ahhh?")
+
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
 }
