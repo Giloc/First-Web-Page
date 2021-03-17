@@ -80,7 +80,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 // *** start ***
 // On first load, show home view
-console.log("Ahhh?")
 showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
   allCategoriesUrl,
@@ -102,6 +101,7 @@ function buildAndShowHomeHTML (categories) {
       // TODO: STEP 2: Here, call chooseRandomCategory, passing it retrieved 'categories'
       // Pay attention to what type of data that function returns vs what the chosenCategoryShortName
       // variable's name implies it expects.
+      console.log("Ahhh?")
       var chosenCategoryShortName = chooseRandomCategory(categories).short_name
 
 
