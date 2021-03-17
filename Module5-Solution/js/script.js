@@ -115,7 +115,6 @@ function buildAndShowHomeHTML (categories) {
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
       //
-      console.log("Ahhh?")
       var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "short_name", chosenCategoryShortName)
 
 
@@ -123,6 +122,7 @@ function buildAndShowHomeHTML (categories) {
       // Use the existing insertHtml function for that purpose. Look through this code for an example
       // of how to do that.
       // ...
+      console.log("Ahhh?")
       insertHtml("#main-content", homeHtmlToInsertIntoMainPage)
 
     },
