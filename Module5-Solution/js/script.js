@@ -41,7 +41,7 @@ var showLoading = function (selector) {
 var insertProperty = function (string, propName, propValue) {
   var propToReplace = "{{" + propName + "}}";
   string = string
-    .replace(new RegExp(propToReplace, "g"), "'" + propValue + "'" );
+    .replace(new RegExp(propToReplace, "g"), propValue);
   return string;
 };
 
@@ -102,6 +102,7 @@ function buildAndShowHomeHTML (categories) {
       // Pay attention to what type of data that function returns vs what the chosenCategoryShortName
       // variable's name implies it expects.
       var chosenCategoryShortName = chooseRandomCategory(categories).short_name
+      chosenCategoryShortName = "'" + chosenCategoryShortName + "'"
 
 
       // TODO: STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet with the
